@@ -1,0 +1,36 @@
+.nav-text{
+    display: flex;
+    justify-content: start;
+    align-items: stretch;
+    background-color: white;
+    opacity: 0.8;
+    height: 40px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.size-font{
+    text-align: end;
+    width: 9%;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    border: none;
+}
+
+.italic, .underline, .bold, .left-text,
+.center-text, .right-text, .color-text{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.color-text{
+    height: 70%;
+    width: 5%;
+    align-self: center;
+}
+
+hr{
+    margin: 1%;
+}
